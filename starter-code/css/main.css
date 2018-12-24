@@ -6,3 +6,46 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  border: 1px solid #000;
+  height: 100px;
+}
+
+ul {
+  margin: 0;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 1.3rem;
+  margin-right: 20px;
+  font-weight: 200;
+}
+
+nav {
+  width: fit-content;
+  height: 100px;
+  float: right;
+  display: table;
+}
+
+#logo {
+  margin-left: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  max-width:200px;
+  max-height:90px;
+  width: auto;
+  height: auto;
+}
